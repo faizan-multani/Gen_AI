@@ -34,3 +34,15 @@
 - **Code** : Code generation, code completion (e.g., GitHub Copilot).
 
 - **3D Objects** : Used in gaming, virtual reality.
+
+# GPT : Generative Pre-Trained Transformer
+- GPT = a language model built on top of this transformer architecture, **trained to generate human-like text**.
+
+## Generative :
+- Whatever our **input we give to llm model** will generate something that's called <mark>**Generative**</mark>.
+
+## Pre-Trained :
+- All the things are pre-trained in gpt model.
+
+## Transformer :
+- is a powerful architecture that uses self-attention to understand context.
