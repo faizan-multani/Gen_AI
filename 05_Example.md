@@ -27,7 +27,7 @@ print(response.choices[0].message.content)
 from google import genai
 
 client = genai.Client(
-    api_key="AIzaSyBjA34ENgeGNplvIqCP-qcH2fuMkqxdO7o"
+    api_key="Your_Free_Gemini-Key"
 )
 
 response = client.models.generate_content(
@@ -50,7 +50,7 @@ from openai import OpenAI
 load_dotenv() # to load environment variable from .env file
 
 client = OpenAI(
-    api_key="AIzaSyBjA34ENgeGNplvIqCP-qcH2fuMkqxdO7o",
+    api_key="Your_Free_Gemini-Key",
     base_url="https://generativelanguage.googleapis.com/v1beta/"
 )
 
