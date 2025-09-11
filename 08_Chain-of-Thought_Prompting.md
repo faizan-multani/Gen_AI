@@ -25,7 +25,7 @@ import json
 
 load_dotenv()
 
-client = OpenAI()
+client = OpenAI(api_key=os.getenv("OPEN_API_KEY"))
 
 
 SYSTEM_PROMPT = """
