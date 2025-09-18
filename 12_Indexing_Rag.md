@@ -7,8 +7,12 @@
 - To run indexing and retireval phase we should run(connect) the docker in the backend.
 
 - For Vector DB i used Qdrant with Docker.
-- connect your Qdrant with Docker that's it.
-- Create a file called docker-compose.yml.
+- **connect your Qdrant with Docker that's it**.
+- **pull the Qrant or anything from .yml file.**
+```
+docker compose up -d
+```
+- **Create a file called docker-compose.yml.**
 ```
 version: "3.8"
 services:
