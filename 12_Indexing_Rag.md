@@ -3,7 +3,7 @@
 
 - In the Vector DB ,we can have meta data(page no,doc info),content.
 
-## Notes :
+## Notes : Important Rules
 - To run indexing and retireval phase we should run(connect) the docker in the backend.
 
 - For Vector DB i used Qdrant with Docker.
