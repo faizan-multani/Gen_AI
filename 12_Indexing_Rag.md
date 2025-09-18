@@ -8,6 +8,17 @@
 
 - For Vector DB i used Qdrant with Docker.
 - connect your Qdrant with Docker that's it.
+- Create a file called docker-compose.yml.
+```
+version: "3.8"
+services:
+  qdrant:
+    image: qdrant/qdrant  # to connect the Qdrant db with Docker
+    ports:
+      - "6333:6333"
+    volumes:
+      - ./qdrant_storage:/qdrant/storage
+```
 
 ![](assets/Rag-Summary.png)
 
