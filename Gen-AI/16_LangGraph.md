@@ -29,9 +29,9 @@
 
 ## Installation :
 ```
-
-```
 pip install langgraph
+```
+
 ## Example :
 ```
 from dotenv import load_dotenv
