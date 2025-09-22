@@ -6,7 +6,33 @@
 - **Make sure your docker is running.**
 - **Make sure you configured the docker-compose.yml file correctly**.
 - **Pull the docker-compose.yml file -> docker compose up -d**
+## Install the Requirements/Import statements :
+```
+pip install -U pymongo langgraph langgraph-checkpoint-mongodb
+```
+## docker-compose.yml file:
+```
+services:
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin
+    volumes:
+      - mongodb_data:/data/db
 
+volumes:
+  mongodb_data:
+
+# To pull .yml file :
+# in bash -
+# docker compose up -d
+
+```
+
+## Example of LangGraph with History :
 ```
 from dotenv import load_dotenv
 from typing_extensions import TypedDict
