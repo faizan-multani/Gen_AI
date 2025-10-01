@@ -1,4 +1,4 @@
-# Weather Info Agent :
+# Weather Info Agent or **Agentic AI** :
 ### usnig Chain Of Thought Prompting -
 ```
 from dotenv import load_dotenv
