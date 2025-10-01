@@ -29,4 +29,7 @@
 - **Works in loops: plan → act → observe → repeat**
 
 ## Examples:
-- An AI that books appointments, sends emails, or writes and tests code automatically
+- An AI that books appointments, sends emails, or writes and tests code automatically.
+
+## NOTE :
+- Example for Agentic AI is **'10_Weather_Info_Agent.md'.**
