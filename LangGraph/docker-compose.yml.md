@@ -1,3 +1,4 @@
+```
 services:
   mongodb:
     image: mongo
@@ -11,6 +12,7 @@ services:
 
 volumes:
   mongodb_data:
+```
 
 ## To pull .yml file :
 - in bash
