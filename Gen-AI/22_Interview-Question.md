@@ -1,4 +1,8 @@
 # Interview Question on Geni-AI :
+
+## Internal Workflow of Gen-AI?
+- Generative AI internally **tokenizes input**, **embeds it**, **processes it through transformer layers to build context**, and then **generates output autoregressively one token at a time using cached attention states**, **followed by safety and postprocessing.**
+
 ## 1. What is Generative AI?
 ### Concept:
 - Generative AI refers to models that can create new content (text, images, code, audio, video) rather than just analyze existing data.
@@ -210,3 +214,31 @@ A transformer is a neural network architecture that:
 - **You want consistent tone/style(use Fine-Tuning).**
 
 ### Fine-tune for behavior + RAG for knowledge.
+
+
+## Max Tokens :
+- Max tokens limits how long the AI’s response can be. A token is roughly 4 characters on average, or about ¾ of a word.
+
+**Example:** 
+- **“Hello world” → 2 tokens.**
+
+- **“I love programming” → 4 tokens.**
+
+**Why it matters:**
+
+- If you set max tokens = 50, the AI will stop after generating around 50 tokens.
+
+- If you want a detailed answer, you need a higher max token.
+
+- If you want a short, concise answer, keep it low.
+
+### Key Takeaways
+
+- **Temperature →** controls creativity/randomness.
+
+- **Max tokens →** controls length.
+
+- **Top-p / penalties / stop sequences →** fine-tune style, repetition, and content control.
+
+## chunk_size	: How big each peice of text is.
+## max_tokens	: How long the model’s answer can be.
